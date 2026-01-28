@@ -4,133 +4,251 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kodespark IT Solutions & Consultancy</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #06414f;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .logo {
-      position: absolute;
-      left: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    .logo img {
-      height: 50px;
-    }
-    nav {
-      background-color: #ff7700;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .hero {
-      padding: 60px 20px;
-      text-align: center;
-      background-color: #e3f2fd;
-    }
-    .hero h1 {
-      font-size: 2.5em;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      margin-top: 40px;
-    }
-    .section h2 {
-      color: #06414f;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #ff7700;
-      padding-bottom: 10px;
-    }
-    .section ul {
-      list-style: none;
-      padding: 0;
-    }
-    .section ul li {
-      background-color: #e3f2fd;
-      margin-bottom: 10px;
-      padding: 10px 15px;
-      border-radius: 5px;
-      border-left: 5px solid #06414f;
-    }
-    .contact-info p {
-      margin: 10px 0;
-      background-color: #f1f8ff;
-      padding: 10px;
-      border-left: 4px solid #06414f;
-      border-radius: 5px;
-    }
-    footer {
-      background-color: #06414f;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
+  <div class="top-header">
+    <div class="top-left">
+      <a href="mailto:hr@kodespark.com">
+        <i class="fas fa-envelope"></i> hr@kodespark.com
+      </a>
+      <a href="tel:+918125777002">
+        <i class="fas fa-phone"></i> +91 8125777002
+      </a>
+    </div>
+
+    <div class="top-right">
+      <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
   <header>
-    <div class="logo">
-        <img src="./assets/logo.jpeg" alt="Kodespark Logo">
+     <nav>
+      <div class="logo">
+        <img src="./assets/kodespark-logo.png" alt="Kodespark Logo">
       </div>
-    <h1>Kodespark Solutions</h1>
-    <p>Innovating, Empowering Business.</p>
-  </header>
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <div class="hero">
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    
     <h1>Reliable IT Solutions & Consultancy</h1>
-    <p>We provide cutting-edge technology services tailored to your business needs.</p>
-  </div>
+    <p>Empowering Businesses Through Smart Technology</p>
+  </header>
+ 
+  <div class="hero">
+    
+  
+<section class="approach">
+  <h2>Our Approach</h2>
+  <p class="section-subtitle">
+    We follow a proven, transparent process to deliver reliable and scalable IT solutions.
+  </p>
 
-  <div class="section" id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Custom Software Development</li>
-      <li>Cloud Infrastructure & Migration</li>
-      <li>Cybersecurity Solutions</li>
-      <li>IT Support & Maintenance</li>
-      <li>Business Process Automation</li>
-      <li>Digital Transformation Consulting</li>
-    </ul>
-  </div>
+  <div class="approach-steps">
+    <div class="step">
+      <span>01</span>
+      <h3>Discover</h3>
+      <p>We understand your business goals, challenges, and technical requirements.</p>
+    </div>
 
-  <div class="section" id="about">
-    <h2>About Us</h2>
-    <p>Kodespark Solutions is a dedicated team of IT professionals offering comprehensive services in information technology and digital consultancy. We are passionate about solving complex business problems through innovation and strategic thinking.</p>
-  </div>
+    <div class="step">
+      <span>02</span>
+      <h3>Design</h3>
+      <p>We craft tailored technology solutions aligned with your vision.</p>
+    </div>
 
-  <div class="section" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@kodespark.com</p>
-    <p>Phone: +91-8125777002</p>
-    <p>Location: Hyderabad, India</p>
-  </div>
+    <div class="step">
+      <span>03</span>
+      <h3>Develop</h3>
+      <p>Our experts build secure, scalable, and high-performance systems.</p>
+    </div>
 
+    <div class="step">
+      <span>04</span>
+      <h3>Deliver</h3>
+      <p>We deploy, optimize, and support your solution for long-term success.</p>
+    </div>
+  </div>
+</section>
+<section class="services" id="services">
+  <h2>Our Services</h2>
+  <p class="section-subtitle">
+    We deliver end-to-end technology solutions to help your business grow and innovate.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <i class="fas fa-code"></i>
+      <h3>Web Development</h3>
+      <p>
+        Scalable, responsive, and secure web applications tailored to your business needs.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-cloud"></i>
+      <h3>Cloud Solutions</h3>
+      <p>
+        Cloud migration, optimization, and management for modern digital infrastructure.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Cybersecurity</h3>
+      <p>
+        Protect your systems and data with enterprise-grade security solutions.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-chart-line"></i>
+      <h3>IT Consulting</h3>
+      <p>
+        Strategic consulting to align technology with your business goals.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-mobile-alt"></i>
+      <h3>Mobile App Development</h3>
+      <p>
+        High-performance mobile apps for iOS and Android platforms.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-database"></i>
+      <h3>Data & Analytics</h3>
+      <p>
+        Turn your data into actionable insights with advanced analytics solutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="why-choose-us" id="why-choose-us">
+  <h2>Why Choose Us</h2>
+  <p class="section-subtitle">
+    We combine expertise, innovation, and reliability to deliver solutions that truly empower your business.
+  </p>
+
+  <div class="expertise-grid">
+    <div class="expertise-card">
+      <i class="fas fa-user-tie"></i>
+      <h3>Expert Team</h3>
+      <p>Highly skilled IT professionals with years of experience in delivering technology solutions.</p>
+    </div>
+
+    <div class="expertise-card">
+      <i class="fas fa-rocket"></i>
+      <h3>Innovative Solutions</h3>
+      <p>We leverage cutting-edge technology to develop solutions that drive growth and efficiency.</p>
+    </div>
+
+    <div class="expertise-card">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Reliable & Secure</h3>
+      <p>Our solutions are built with security and reliability at the core, ensuring business continuity.</p>
+    </div>
+
+    <div class="expertise-card">
+      <i class="fas fa-headset"></i>
+      <h3>24/7 Support</h3>
+      <p>We provide round-the-clock support to ensure smooth operation and prompt assistance when needed.</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <p class="section-subtitle">
+    Trusted by businesses worldwide for delivering reliable IT solutions and exceptional support.
+  </p>
+
+  <div class="testimonial-slider">
+    <div class="testimonial-card">
+      <p>"Kodespark Solutions transformed our IT infrastructure. Their team is highly professional and reliable."</p>
+      <h3>— John Doe, CEO, TechCorp</h3>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Their innovative solutions helped us scale our business efficiently. Highly recommended!"</p>
+      <h3>— Sarah Lee, Founder, CloudWorks</h3>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Exceptional support and expertise. We trust Kodespark for all our IT needs."</p>
+      <h3>— Michael Smith, CTO, FinTech Solutions</h3>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p class="section-subtitle">
+        Ready to take your business to the next level? Reach out to us and let's discuss your project.
+      </p>
+
+      <div class="contact-details">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:info@kodespark.com">hr@kodespark.com</a></p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+91 8125777002">+91 8125777002</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formspree.io/f/mbdovlej"  method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+        <p class="success-message" style="display:none; color:green;">Message sent successfully!</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</div>
   <footer>
     <p>&copy; 2025 Kodespark Solutions. All rights reserved.</p>
   </footer>
+  
+<script>
+  const form = document.querySelector('form');
+  const successMessage = document.querySelector('.success-message');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault(); // prevent default page reload
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        successMessage.style.display = 'block';
+        form.reset();
+      } else {
+        alert("Oops! There was a problem.");
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
