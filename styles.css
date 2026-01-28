@@ -103,13 +103,7 @@ body {
       border-radius: 5px;
       border-left: 5px solid #06414f;
     }
-    .contact-info p {
-      margin: 10px 0;
-      background-color: #f1f8ff;
-      padding: 10px;
-      border-left: 4px solid #06414f;
-      border-radius: 5px;
-    }
+    
     footer {
       background-color: #06414f;
       color: white;
@@ -490,7 +484,7 @@ body {
 }
 
 .contact-form button:hover {
-  background: #008ecc;
+  background: #06414f;
 }
 
 /* Responsive */
