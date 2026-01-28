@@ -161,7 +161,7 @@ body {
 /* Hover animation */
 .social:hover {
   background: #fff;
-  color: #00aaff;
+  color: #06414f;
   transform: translateY(-2px);
 }
 
@@ -543,3 +543,101 @@ body {
   }
 }
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 20px; */
+  /* background-color: #00aaff; example color */
+  color: white;
+  flex-wrap: wrap;
+}
+
+.top-left a,
+.top-right a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* Header Nav */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+  /* background: rgba(255, 255, 255, 0.9); semi-transparent background */
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ff7700;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #06414f;
+}
+
+/* Hero Section */
+.hero-content {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('./assets/it-hero.jpg') no-repeat center/cover;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
